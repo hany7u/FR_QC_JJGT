@@ -112,7 +112,7 @@ where 1=2]]></Query>
 <RowHeight defaultValue="723900">
 <![CDATA[723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
-<![CDATA[1257300,3886200,3810000,2971800,3048000,2743200,2743200,3276600,3124200,3467100,2743200]]></ColumnWidth>
+<![CDATA[1257300,3886200,3810000,2971800,3048000,2743200,3276600,2743200,3124200,2743200,2743200,2743200,2743200,2743200,3467100,2743200]]></ColumnWidth>
 <CellElementList>
 <C c="0" r="0" s="0">
 <O>
@@ -152,13 +152,13 @@ where 1=2]]></Query>
 </C>
 <C c="6" r="0" s="0">
 <O>
-<![CDATA[糖浓]]></O>
+<![CDATA[透光率]]></O>
 <PrivilegeControl/>
 <Expand/>
 </C>
 <C c="7" r="0" s="0">
 <O>
-<![CDATA[透光率]]></O>
+<![CDATA[糖浓]]></O>
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -170,27 +170,45 @@ where 1=2]]></Query>
 </C>
 <C c="9" r="0" s="0">
 <O>
+<![CDATA[备注]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="10" r="0" s="0">
+<O>
+<![CDATA[F]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="0" s="0">
+<O>
+<![CDATA[G]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="0" s="0">
+<O>
+<![CDATA[M2]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="13" r="0" s="0">
+<O>
+<![CDATA[M3]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="0" s="0">
+<O>
 <![CDATA[检验员]]></O>
 <PrivilegeControl/>
 <Expand/>
 </C>
 <C c="0" r="1" s="1">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=SEQ(C2)]]></Attributes>
-</O>
 <PrivilegeControl/>
 <Expand leftParentDefault="false" left="B2"/>
 </C>
 <C c="1" r="1" s="2">
-<O t="DSColumn">
-<Attributes dsName="ds1" columnName="检验日期"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
-<Attr divideMode="1"/>
-</RG>
-<Parameters/>
-</O>
 <PrivilegeControl/>
 <Widget class="com.fr.form.ui.TextEditor">
 <WidgetAttr description="">
@@ -207,14 +225,6 @@ where 1=2]]></Query>
 <Expand dir="0"/>
 </C>
 <C c="2" r="1" s="2">
-<O t="DSColumn">
-<Attributes dsName="ds1" columnName="检验时间"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
-<Attr divideMode="1"/>
-</RG>
-<Parameters/>
-</O>
 <PrivilegeControl/>
 <Widget class="com.fr.form.ui.TextEditor">
 <WidgetAttr description="">
@@ -231,14 +241,6 @@ where 1=2]]></Query>
 <Expand dir="0"/>
 </C>
 <C c="3" r="1" s="2">
-<O t="DSColumn">
-<Attributes dsName="ds1" columnName="班组"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
-<Attr divideMode="1"/>
-</RG>
-<Parameters/>
-</O>
 <PrivilegeControl/>
 <Widget class="com.fr.form.ui.ComboBox">
 <WidgetAttr description="">
@@ -260,14 +262,6 @@ where 1=2]]></Query>
 <Expand dir="0"/>
 </C>
 <C c="4" r="1" s="2">
-<O t="DSColumn">
-<Attributes dsName="ds1" columnName="工序项目"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
-<Attr divideMode="1"/>
-</RG>
-<Parameters/>
-</O>
 <PrivilegeControl/>
 <Widget class="com.fr.form.ui.ComboBox">
 <WidgetAttr description="">
@@ -295,14 +289,6 @@ where 1=2]]></Query>
 <Expand dir="0"/>
 </C>
 <C c="5" r="1" s="2">
-<O t="DSColumn">
-<Attributes dsName="ds1" columnName="PH"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
-<Attr divideMode="1"/>
-</RG>
-<Parameters/>
-</O>
 <PrivilegeControl/>
 <Widget class="com.fr.form.ui.TextEditor">
 <WidgetAttr description="">
@@ -315,14 +301,6 @@ where 1=2]]></Query>
 <Expand dir="0"/>
 </C>
 <C c="6" r="1" s="2">
-<O t="DSColumn">
-<Attributes dsName="ds1" columnName="糖浓"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
-<Attr divideMode="1"/>
-</RG>
-<Parameters/>
-</O>
 <PrivilegeControl/>
 <Widget class="com.fr.form.ui.TextEditor">
 <WidgetAttr description="">
@@ -335,14 +313,6 @@ where 1=2]]></Query>
 <Expand dir="0"/>
 </C>
 <C c="7" r="1" s="2">
-<O t="DSColumn">
-<Attributes dsName="ds1" columnName="透光率"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
-<Attr divideMode="1"/>
-</RG>
-<Parameters/>
-</O>
 <PrivilegeControl/>
 <Widget class="com.fr.form.ui.TextEditor">
 <WidgetAttr description="">
@@ -355,14 +325,6 @@ where 1=2]]></Query>
 <Expand dir="0"/>
 </C>
 <C c="8" r="1" s="2">
-<O t="DSColumn">
-<Attributes dsName="ds1" columnName="电导率"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
-<Attr divideMode="1"/>
-</RG>
-<Parameters/>
-</O>
 <PrivilegeControl/>
 <Widget class="com.fr.form.ui.TextEditor">
 <WidgetAttr description="">
@@ -375,14 +337,66 @@ where 1=2]]></Query>
 <Expand dir="0"/>
 </C>
 <C c="9" r="1" s="2">
-<O t="DSColumn">
-<Attributes dsName="ds1" columnName="检验员"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
-<Attr divideMode="1"/>
-</RG>
-<Parameters/>
-</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="10" r="1" s="2">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="11" r="1" s="2">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="12" r="1" s="2">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="13" r="1" s="2">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="14" r="1" s="2">
 <PrivilegeControl/>
 <Widget class="com.fr.form.ui.ComboBox">
 <WidgetAttr description="">
@@ -410,41 +424,70 @@ where 1=2]]></Query>
 <Margin top="986400" left="2743200" bottom="986400" right="2743200"/>
 </PaperSetting>
 </ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
 </ReportAttrSet>
 <ReportWriteAttr>
 <SubmitVisitor class="com.fr.report.write.BuiltInSQLSubmiter">
 <Name>
 <![CDATA[内置SQL1]]></Name>
 <Attributes dsName="ecomtest"/>
-<DMLConfig class="com.fr.write.config.InsertConfig">
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
 <Table schema="BLBZS" name="FR_QC_JJGT"/>
-<ColumnConfig name="DTATE" isKey="false" skipUnmodified="false">
+<ColumnConfig name="DTATE" isKey="true" skipUnmodified="false">
 <ColumnRow column="1" row="1"/>
 </ColumnConfig>
-<ColumnConfig name="DTIME" isKey="false" skipUnmodified="false">
+<ColumnConfig name="DTIME" isKey="true" skipUnmodified="false">
 <ColumnRow column="2" row="1"/>
 </ColumnConfig>
-<ColumnConfig name="BANZU" isKey="false" skipUnmodified="false">
+<ColumnConfig name="BANZU" isKey="true" skipUnmodified="false">
 <ColumnRow column="3" row="1"/>
 </ColumnConfig>
-<ColumnConfig name="GX" isKey="false" skipUnmodified="false">
+<ColumnConfig name="GX" isKey="true" skipUnmodified="false">
 <ColumnRow column="4" row="1"/>
 </ColumnConfig>
 <ColumnConfig name="PH" isKey="false" skipUnmodified="false">
 <ColumnRow column="5" row="1"/>
 </ColumnConfig>
-<ColumnConfig name="TANGNONG" isKey="false" skipUnmodified="false">
+<ColumnConfig name="TOUGUANGLV" isKey="false" skipUnmodified="false">
 <ColumnRow column="6" row="1"/>
 </ColumnConfig>
-<ColumnConfig name="TOUGUANGLV" isKey="false" skipUnmodified="false">
+<ColumnConfig name="TANGNONG" isKey="false" skipUnmodified="false">
 <ColumnRow column="7" row="1"/>
 </ColumnConfig>
 <ColumnConfig name="DIANDAOLV" isKey="false" skipUnmodified="false">
 <ColumnRow column="8" row="1"/>
 </ColumnConfig>
-<ColumnConfig name="QC_USER" isKey="false" skipUnmodified="false">
+<ColumnConfig name="VMOTE" isKey="false" skipUnmodified="false">
 <ColumnRow column="9" row="1"/>
 </ColumnConfig>
+<ColumnConfig name="F" isKey="false" skipUnmodified="false">
+<ColumnRow column="10" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="G" isKey="false" skipUnmodified="false">
+<ColumnRow column="11" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="M2" isKey="false" skipUnmodified="false">
+<ColumnRow column="12" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="M3" isKey="false" skipUnmodified="false">
+<ColumnRow column="13" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="QC_USER" isKey="false" skipUnmodified="false">
+<ColumnRow column="14" row="1"/>
+</ColumnConfig>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<UpdateAttr updateStatus="true"/>
 </DMLConfig>
 </SubmitVisitor>
 </ReportWriteAttr>
